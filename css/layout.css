@@ -1,0 +1,49 @@
+* {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+.cabeca {
+    margin-bottom: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+
+    background-color: #8cafe9;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #0d1c45;
+    color: #fff;
+}
+
+.noticia {
+    margin: 10px;
+    padding: 10px;
+
+    background-color: #979d9d;
+}
+
+.pe {
+    margin-top: 20px;
+    padding: 30px;
+
+    background-color: #8cafe9;
+
+    text-align: center;
+}
+#sidebar {
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    z-index: 0;
+    background-color: blue;
+  }

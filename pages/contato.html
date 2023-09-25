@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
 </head>
+
 <body>
-    
+    <header class="cabeca">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a href="../index.html"><img src="../img/logo.png" alt="logo" width="50px"></a>
+                <a class="nav-link" href="../pages/about.html">Quem Somos</a>
+                <a class="nav-link" href="../pages/contato.html">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <div id="contato" class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco:</p>
+        <form>
+            <div class="infoContato">
+                <label for="nome">Nome:</label>
+                <input type="texto" class="contato" id="nome" placeholder="Seu Nome">
+            </div>
+            <div class="infoContato">
+                <label for="email">Email:</label>
+                <input type="email" class="contato" id="email" placeholder="seu@email.com">
+            </div>
+            <div class="infoContato">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="contato" id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+            </div>
+    </div>
 </body>
+
 </html>

@@ -6,10 +6,12 @@
     background-color: #172a5e;
     padding: 5px;
     border-radius: 20px;
+    width: 90%;
 }
 .botao:hover{
-    transition: 0.5s;
+    transition: 200ms ease-in-out;
     background-color: #0d1c45;
+    width: 100%;
 
 }
 

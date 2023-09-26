@@ -2,6 +2,11 @@
     text-decoration: none;
 }
 
+body{
+    font-family: 'Lora';
+    font-size: 1.3em;
+}
+
 a:visited {
     color: #000;
 }
@@ -48,6 +53,14 @@ a:visited {
     text-align: center;
 }
 
+.pe > div > a {
+    color: #000;
+}
+
+.pe:visited > div > a{
+    color: #000;
+}
+
 #sidebar {
     position: absolute;
     top: 300px;
@@ -56,4 +69,11 @@ a:visited {
     width: 100px;
     z-index: 0;
     background-color: blue;
+}
+
+.titulo-materia {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
 }

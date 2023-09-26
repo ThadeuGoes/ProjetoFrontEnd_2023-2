@@ -7,6 +7,7 @@
     padding: 5px;
     border-radius: 20px;
     width: 90%;
+    color: #fff;
 }
 .botao:hover{
     transition: 200ms ease-in-out;
@@ -37,7 +38,7 @@
     font-weight: bold;
 }
 
-.lulao {
+.materia-imagem {
     padding: 2em;
     text-align: center;
     display: block;
@@ -46,4 +47,14 @@
 
 .titulo-materia {
     font-size: 1.5em;
+}
+.corpo-materia > div > h4{
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-decoration:dotted ;
+}
+.corpo-materia> div > h4::before{
+    content: "\25C6"	;
+    
 }

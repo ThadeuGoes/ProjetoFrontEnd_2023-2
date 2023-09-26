@@ -61,19 +61,10 @@ a:visited {
     color: #000;
 }
 
-#sidebar {
-    position: absolute;
-    top: 300px;
-    bottom: 0;
-    right: 0;
-    width: 100px;
-    z-index: 0;
-    background-color: blue;
-}
-
 .titulo-materia {
     margin-bottom: 20px;
     padding: 10px;
     text-align: center;
     font-weight: bold;
 }
+

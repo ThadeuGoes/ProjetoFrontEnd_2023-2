@@ -12,7 +12,7 @@ a:visited {
 }
 
 .cabeca {
-    padding: 10px;
+    /* padding: 10px; */
     position: sticky;
     top: 0;
     z-index: 9;
@@ -21,7 +21,7 @@ a:visited {
 }
 
 .titulo {
-    margin-bottom: 20px;
+    margin: 0px;
     padding: 10px;
     background-color: #0d1c45;
     color: #fff;
@@ -67,4 +67,3 @@ a:visited {
     text-align: center;
     font-weight: bold;
 }
-

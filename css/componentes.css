@@ -1,5 +1,7 @@
 .paginas {
     text-align: center;
+    position: sticky;
+    margin-top: -50px;
 }
 
 .botao {
@@ -36,25 +38,32 @@
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
+    color: #000;
 }
 
 .materia-imagem {
     padding: 2em;
     text-align: center;
     display: block;
-    margin: auto;
+    margin: 0;
 }
 
 .titulo-materia {
     font-size: 1.5em;
+    margin-bottom: 0;
 }
 .corpo-materia > div > h4{
     font-weight: bold;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     text-decoration:dotted ;
+    color: #000;
 }
 .corpo-materia> div > h4::before{
     content: "\25C6"	;
     
+}
+
+.img-home {
+    padding: 1em 0;
 }

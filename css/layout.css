@@ -107,6 +107,7 @@ a:visited {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 .container>div{
    margin: 0.5%;
@@ -116,7 +117,7 @@ a:visited {
    padding-left: 2%;
    padding-right: 2%;
    width: 17em;
-
+   
 }
 .container>div>p{
     color: #000;
@@ -141,5 +142,7 @@ a:visited {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 20%;
+   padding-right: 20%;
 }
 /*ADD*/

@@ -67,3 +67,29 @@
 .img-home {
     padding: 1em 0;
 }
+
+.item-pe{
+    display: inline;
+}
+
+.carousel-control-prev{
+    opacity: 0.1;
+    
+    background-color: #000;
+}
+.carousel-control-prev:hover{
+    opacity: 0.5;
+    background-color: #000;
+    transition: 300ms;
+}
+
+.carousel-control-next{
+    opacity: 0.1;
+    background-color: #000;
+}
+
+.carousel-control-next:hover{
+    opacity: 0.5;
+    background-color: #000;
+    transition: 300ms;
+}

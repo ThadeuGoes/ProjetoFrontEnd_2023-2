@@ -2,6 +2,7 @@
     text-align: center;
     position: sticky;
     margin-top: -50px;
+    margin-bottom: 5px;
 }
 
 .botao {
@@ -10,8 +11,12 @@
     border-radius: 20px;
     width: 90%;
     color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
-.botao:hover{
+
+.botao:hover {
     transition: 200ms ease-in-out;
     background-color: #0d1c45;
     width: 100%;
@@ -52,48 +57,65 @@
     font-size: 1.5em;
     margin-bottom: 0;
 }
-.corpo-materia > div > h4{
+
+.corpo-materia>div>h4 {
     font-weight: bold;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    text-decoration:dotted ;
+    text-decoration: dotted;
     color: #000;
 }
-.corpo-materia> div > h4::before{
-    content: "\25C6"	;
-    
+
+.corpo-materia>div>h4::before {
+    content: "\25C6";
+
 }
 
 .img-home {
-    padding: 1em 0;
+    padding: 0;
+    margin-top: 1em;
 }
 
-.item-pe{
+@media (min-width: 1100px) {
+    .carrossel {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 9em;
+    }
+}
+
+.item-pe {
     display: inline;
 }
 
-.carousel-control-prev{
+.carousel-control-prev {
     opacity: 0.1;
-    
-    background-color: #000;
-}
-.carousel-control-prev:hover{
-    opacity: 0.5;
-    background-color: #000;
-    transition: 300ms;
-}
 
-.carousel-control-next{
-    opacity: 0.1;
     background-color: #000;
 }
 
-.carousel-control-next:hover{
-    opacity: 0.5;
-    background-color: #000;
+.carousel-control-prev:hover {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
     transition: 300ms;
 }
-.resumo{
+
+.carousel-control-next {
+    opacity: 0.1;
+    background-color: #000;
+}
+
+.carousel-control-next:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    transition: 300ms;
+}
+
+.resumo {
     height: auto;
     padding-bottom: 3%;
+}
+
+.logo {
+    display: inline;
+    margin-left: 1em;
+    z-index: 9;
 }

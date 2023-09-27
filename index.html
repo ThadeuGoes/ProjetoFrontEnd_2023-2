@@ -10,115 +10,123 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/componentes.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/componentes.css">
 </head>
 
 <body>
-    <!-- link das categorias -->
     <header class="cabeca">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="cabecalho">
-                    <a href="./index.html" ><img src="./img/logo.png" class="logo" alt="logo" ></a>
-                    <div class="paginas">
-                        <a class="nav-link botao" href="./pages/esportes.html">Esporte</a>
-                        <a class="nav-link botao" href="./pages/cidade.html">Cidade</a>
-                        <a class="nav-link botao" href="./pages/politica.html">Politica</a>
-                    </div>
+        <nav>
+            <div>
+                <a href="../index.html"><img src="../img/logo.png" class="logo" alt="logo" width="50px"></a>
+                <div class="paginas">
+                    <a class="nav-link botao" href="../pages/esportes.html">Esporte</a>
+                    <a class="nav-link botao" href="../pages/cidade.html">Cidade</a>
+                    <a class="nav-link botao" href="../pages/politica.html">Politica</a>
                 </div>
             </div>
         </nav>
         <div class="titulo">
-            <h1>A verdade nua e crua</h1>
-            <h2>A notícia que você precisa, não a que quer ouvir.</h2>
+            <h1>A VERDADE NUA E CRUA</h1>
         </div>
     </header>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="img-home">
-                    <a href="./pages/noticias/lulao.html">
-                        <img class="d-block w-100" src="./img/lulao.jpg" alt="lulao">
-                    </a>
+    <section class="home">
+        <div class="carrossel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="img-home">
+                            <a href="./pages/noticias/lulao.html">
+                                <img class="d-block w-100" src="./img/lulao.jpg" alt="lulao">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/etbilu.html">
+                                <img class="d-block w-100" src="./img/EtBilu.png" alt="EtBilu">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/gravida.html">
+                                <img class="d-block w-100" src="./img/gravida.jpg" alt="Gravida de Taubaté">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/JulesRimet.html">
+                                <img src="./img/pele_julesrimet.jpg" alt="pele" class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/Copa1950.html">
+                                <img src="./img/copa1950.png" alt="copa1950" class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/messicruzeiro.html">
+                                <img src="./img/messiCruzeiro.png" alt="Messi no Cruzeiro" class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/cristianoRonaldo.html">
+                                <img src="./img/cristianoRonaldoDesiste.png" alt="Cristiano Ronaldo desiste do futebol"
+                                    class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/sequestroSomalia.html">
+                                <img src="./img/sequestrosomalia.png"
+                                    alt="O jogador do Botafogo Somália foi sequestrado" class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img-home">
+                            <a href="./pages/noticias/gansoXZidane.html">
+                                <img src="./img/PauloHenriqueGanso.png"
+                                    alt="Paulo Henrique Ganso Vai ser melhor que Zidane" class="d-block w-100">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/etbilu.html">
-                        <img class="d-block w-100" src="./img/EtBilu.png" alt="EtBilu">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/gravida.html">
-                        <img class="d-block w-100" src="./img/gravida.jpg" alt="Gravida de Taubaté">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/JulesRimet.html">
-                        <img src="./img/pele_julesrimet.jpg" alt="pele" class="d-block w-100">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/Copa1950.html">
-                        <img src="./img/copa1950.png" alt="copa1950" class="d-block w-100">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/messicruzeiro.html">
-                        <img src="./img/messiCruzeiro.png" alt="Messi no Cruzeiro" class="d-block w-100">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/cristianoRonaldo.html">
-                        <img src="./img/cristianoRonaldoDesiste.png" alt="Cristiano Ronaldo desiste do futebol"
-                            class="d-block w-100">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/sequestroSomalia.html">
-                        <img src="./img/sequestrosomalia.png" alt="O jogador do Botafogo Somália foi sequestrado"
-                            class="d-block w-100">
-                    </a>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="img-home">
-                    <a href="./pages/noticias/gansoXZidane.html">
-                        <img src="./img/PauloHenriqueGanso.png" alt="Paulo Henrique Ganso Vai ser melhor que Zidane"
-                            class="d-block w-100">
-                    </a>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only ">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only ">Next</span>
+                </a>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only ">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only ">Next</span>
-        </a>
-    </div>
-
+    </section>
 
     <footer class="pe">
         <div>
@@ -127,6 +135,9 @@
             <a class="nav-link item-pe" href="./pages/contato.html">Contato</a>
         </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Lora';
     font-size: 1.3em;
     background-color: #000;
@@ -14,21 +14,24 @@ a:visited {
 }
 
 .cabeca {
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 9;
     padding: 0;
 
     background-color: #8cafe9;
 }
-.cabecalho{
+
+.cabecalho {
     background-color: #8cafe9;
     top: 0;
     height: 7em;
     width: 100%;
     margin: 0;
 }
-.navbar{
+
+.navbar {
     margin: 0;
     padding: 0;
 }
@@ -50,26 +53,20 @@ a:visited {
     transition: 200ms ease-in-out;
 }
 
-.botao{
+.botao {
     width: 100px !important;
     height: 30px;
     margin-top: 0px;
     margin-left: 5px;
 }
 
-.logo{
-    display: block;
-    height: 100px;
-    margin-top: 20px;
-    margin-left: 2.5em;
-}
-
 .paginas {
-    width: 100%;
+    width: 50%;
     height: 5vh;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    margin: 0 auto 0 auto;
 }
 
 
@@ -78,7 +75,7 @@ a:visited {
 }
 
 .pe {
-    
+
     margin-top: 20px;
     padding: 30px;
 
@@ -87,11 +84,11 @@ a:visited {
     text-align: center;
 }
 
-.pe > div > a {
+.pe>div>a {
     color: #000;
 }
 
-.pe:visited > div > a{
+.pe:visited>div>a {
     color: #000;
 }
 
@@ -101,48 +98,61 @@ a:visited {
     text-align: center;
     font-weight: bold;
 }
+
 /*ADD*/
-.container{
-   display: flex;
+.container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
+    margin-top: 11em;
 }
-.container>div{
-   margin: 0.5%;
-   background-color: #979d9d;
-   border-radius: 7%;
-   text-align: center;
-   padding-left: 2%;
-   padding-right: 2%;
-   width: 17em;
-   
+
+.container>div {
+    margin: 0.5%;
+    background-color: #979d9d;
+    border-radius: 7%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 17em;
+
 }
-.container>div>p{
+
+.container>div>p {
     color: #000;
 }
-.container>div>a{
+
+.container>div>a {
     color: black;
 }
-.container>div>a>h4{
+
+.container>div>a>h4 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-weight: bold;
 }
-#contato{
+
+#contato {
     width: 37%;
-   margin-left: 30%;
+    margin-left: 30%;
     border-radius: 7%;
     text-align: center;
     background-color: #979d9d;
 }
-.materia{
+
+.materia {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 20%;
-   padding-right: 20%;
+    padding-right: 20%;
 }
+
 /*ADD*/
+
+.carrossel {
+    margin-top: 12em;
+}

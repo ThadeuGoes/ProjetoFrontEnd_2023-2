@@ -101,3 +101,45 @@ a:visited {
     text-align: center;
     font-weight: bold;
 }
+/*ADD*/
+.container{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container>div{
+   margin: 0.5%;
+   background-color: #979d9d;
+   border-radius: 7%;
+   text-align: center;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 17em;
+   height: 30em;
+}
+.container>div>p{
+    color: #000;
+}
+.container>div>a{
+    color: black;
+}
+.container>div>a>h4{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+#contato{
+    width: 37%;
+   margin-left: 30%;
+    border-radius: 7%;
+    text-align: center;
+    background-color: #979d9d;
+}
+.materia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*ADD*/

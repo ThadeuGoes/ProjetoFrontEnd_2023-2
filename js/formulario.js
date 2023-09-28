@@ -1,15 +1,15 @@
-let formCliente = document.querySelector('.form')
-formCliente.addEventListener('submit', event=>{
+let formCliente = document.querySelector('.form');
+formCliente.addEventListener('submit', event => {
     event.preventDefault();
-    const formData = new FormData(formClinente);
+    const formData = new FormData(formCliente);
     const data = Object.fromEntries(formData);
-    fetch('https://6513726a8e505cebc2e9db7a.mockapi.io/clientes',{
-        method:'POST',
-        header:{
-            'Content-Type':'application/json'
+    fetch('https://651481ffdc3282a6a3cd4072.mockapi.io/Assinar', {
+        method: 'POST',
+        headers: { 
+            'Content-Type': 'application/json'
         },
-        boby:JSON.stringify(data),
+        body: JSON.stringify(data),
     })
-        .then((res)=>res.json())
-        .then((data)=> console.log(data));
-})
+        .then((res) => res.json())
+        .then((data) => console.log(data));
+});

@@ -20,9 +20,9 @@
 
 <body>
     <header class="cabeca">
-        <nav >
+        <nav>
             <div>
-                <a href="../index.html" class="logo"><img src="../img/logo.png" alt="logo" width="50px"></a>
+                <a href="../index.html" ><img src="../img/logo.png" class="logo" alt="logo" width="50px"></a>
                 <div class="paginas">
                     <a class="nav-link botao" href="./esportes.html">Esporte</a>
                     <a class="nav-link botao" href="./cidade.html">Cidade</a>
@@ -30,30 +30,38 @@
                 </div>
             </div>
         </nav>
+        <div class="titulo">
+            <h1>CONTATO</h1>
+        </div>
     </header>
-
-    <div class="titulo">
-        <h1>CONTATO</h1>
-    </div>
     <div id="contato">
         <h2>Contato</h2>
         <p>Entre em contato conosco:</p>
         <form action="" class="form">
             <div class="infoContato">
                 <p>Nome:</p>
-                <input type="texto" name="nome"  id="nome" placeholder="Seu Nome">
+                <input type="texto" name="nome" id="nome-contato" class="item-contato" placeholder="Seu Nome">
             </div>
             <div class="infoContato">
                 <p>Email:</p>
-                <input type="email"  name="email"  id="email" placeholder="seu@email.com">
+                <input type="email" name="email" id="email-contato" class="item-contato" placeholder="seu@email.com">
             </div>
             <div class="infoContato">
                 <p>Mensagem:</p>
-                <textarea name="texto"  id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+                <textarea name="texto" id="mensagem-contato" class="item-contato" rows="4" placeholder="Sua Mensagem"></textarea>
             </div>
         </form>
         <button type="submit">Enviar</button>
     </div>
+    <footer class="pe">
+        <div>
+            <a class="nav-link item-pe" href="./about.html">Quem Somos</a>
+            &#183
+            <a class="nav-link item-pe" href="./contato.html">Contato</a>
+            &#183
+            <a class="nav-link item-pe" href="./cadastro.html">Cadastro</a>
+        </div>
+    </footer>
 </body>
 
 </html>

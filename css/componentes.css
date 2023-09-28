@@ -20,7 +20,8 @@
     transition: 200ms ease-in-out;
     background-color: #0d1c45;
     width: 100%;
-
+    transform: scale(1.1);
+    
 }
 
 .botao:visited {
@@ -123,4 +124,20 @@
     display: inline;
     margin-left: 1em;
     z-index: 9;
+}
+.logo:hover{
+    transition: 200ms ease-in-out;
+    transform: scale(1.1);
+}
+
+.img-categoria{
+    margin-top: 1em;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.item-contato {
+    width: 75%;
 }

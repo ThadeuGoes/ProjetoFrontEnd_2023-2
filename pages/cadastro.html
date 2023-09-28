@@ -13,32 +13,95 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/componentes.css">
 </head>
 
 <body>
     <header class="cabeca">
-        <nav >
+        <nav>
             <div>
-                <a href="../index.html" class="logo"><img src="../img/logo.png" alt="logo" width="50px"></a>
+                <a href="../index.html"><img src="../img/logo.png" class="logo" alt="logo" width="50px"></a>
                 <div class="paginas">
-                    <a class="nav-link botao" href="./esportes.html">Esporte</a>
-                    <a class="nav-link botao" href="./cidade.html">Cidade</a>
-                    <a class="nav-link botao" href="./politica.html">Politica</a>
+                    <a class="nav-link botao" href="../pages/esportes.html">Esporte</a>
+                    <a class="nav-link botao" href="../pages/cidade.html">Cidade</a>
+                    <a class="nav-link botao" href="../pages/politica.html">Politica</a>
                 </div>
             </div>
         </nav>
+        <div class="titulo">
+            <h1>CADASTRO</h1>
+        </div>
     </header>
 
-    <h1>consulta</h1>
-    <label for="">digite seu cep:</label>
-    <input type="number" id="cep" />
-    <button onclick="consultaEndereco()">Consultar</button>
-    <div id="resultado">
-        <p>seu resultado aqui</p>
-    </div>
+    <section class="corpo-cadastro">
+        <section class="cadastro">
+            <h2>Cadastro</h2>
+            <p>Assine nosso jornal:</p>
+            <form method="post" action="" class="form">
+                <div class="infoContato form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" class="item-form  form-control" id="nome" placeholder="Seu Nome">
+                </div>
+                <div class="infoContato1 form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" class="item-form form-control" id="email"
+                        placeholder="seu@email.com">
+                </div>
+                <div class="infoContato form-group telefone">
+                    <label for="telefone">Tel:</label>
+                    <input type="text" name="telefone" class="item-form form-control" id="telefone"
+                        placeholder="Somente números">
+                </div>
+                <div class="infoContato1 form-group cpf">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" class="item-form form-control" id="cpf" placeholder="000.000.000-00">
+                </div>
+                <div class="infoContato form-group cep">
+                    <label>CEP:</label>
+                    <input name="cep" type="text" placeholder="CEP" class="item-form form-control" id="cep" value=""
+                        onblur="pesquisacep(this.value);" />
+                </div>
+                <div class="infoContato form-group cidade">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" class="item-form form-control" id="cidade" placeholder="Cidade"
+                    readonly>
+                </div>
+                <div class="infoContato1 form-group uf">
+                    <label for="uf">Estado:</label>
+                    <input type="text" name="uf" class="item-form form-control" id="uf" placeholder="Estado" readonly>
+                </div>
+                <div class="infoContato1 form-group bairro">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" name="bairro" class="item-form form-control" id="bairro" placeholder="Bairro"
+                        readonly>
+                </div>
+                <div class="infoContato form-group">
+                    <label for="text">Rua:</label>
+                    <input name="rua" type="text" class="item-form form-control" id="rua" placeholder="Rua" readonly>
+                </div>
+                <div class="infoContato1 form-group">
+                    <label for="numero">Número:</label>
+                    <input type="text" name="numero" class="item-form form-control" id="numero"
+                        placeholder="Número e complemento">
+                </div>
+                <button type="submit" class="botao-form">Enviar</button>
+            </form>
+        </section>
+    </section>
+    
+    <footer class="pe">
+        <div>
+            <a class="nav-link item-pe" href="./about.html">Quem Somos</a>
+            &#183
+            <a class="nav-link item-pe" href="./contato.html">Contato</a>
+            &#183
+            <a class="nav-link item-pe" href="./cadastro.html">Cadastro</a>
+        </div>
+    </footer>
     <script src="../js/cadastro.js"></script>
+    <script src="../js/formulario.js"></script>
 </body>
 
 </html>

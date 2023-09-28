@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/componentes.css">
+</head>
+
+<body>
+    <header class="cabeca">
+        <nav >
+            <div>
+                <a href="../index.html" class="logo"><img src="../img/logo.png" alt="logo" width="50px"></a>
+                <div class="paginas">
+                    <a class="nav-link botao" href="./esportes.html">Esporte</a>
+                    <a class="nav-link botao" href="./cidade.html">Cidade</a>
+                    <a class="nav-link botao" href="./politica.html">Politica</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <h1>consulta</h1>
+    <label for="">digite seu cep:</label>
+    <input type="number" id="cep" />
+    <button onclick="consultaEndereco()">Consultar</button>
+    <div id="resultado">
+        <p>seu resultado aqui</p>
+    </div>
+    <script src="../js/cadastro.js"></script>
+</body>
+
+</html>

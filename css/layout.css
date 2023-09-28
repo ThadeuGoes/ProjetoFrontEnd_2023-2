@@ -160,3 +160,25 @@ a:visited {
 .carrossel {
     margin-top: 12em;
 }
+.sobre-nos{
+    margin-top: 200px;
+    padding-right: 10em;
+    padding-left: 10em;
+}
+.sobre-nos>h2{
+    text-align: center;
+    font-size: 1.6em;
+}
+.sobre-nos>h3{
+    text-align: center;
+}
+.sobre-nos>h4{
+    font-weight: bold;
+}
+.colaboradores>h4{
+    font-weight: bold;
+    margin-top: 1em
+}
+.colaboradores{
+    margin-top: 2em;
+}
